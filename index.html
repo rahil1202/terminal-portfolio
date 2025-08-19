@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Character encoding & viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Primary SEO -->
+    <title>Rahil’s Portfolio Terminal — Full-Stack Developer, Open-Source & CLI UI</title>
+    <meta name="description" content="Rahil is a full-stack developer who builds fast, accessible interfaces and playful terminal UIs. Explore projects, experience, tech stack, talks, and contact info." />
+    <meta name="author" content="Rahil" />
+    <link rel="canonical" href="https://terminal.rahil.pro/" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <!-- <meta name="google-site-verification" content="PASTE_YOUR_TOKEN_HERE" /> -->
+
+    <!-- Performance: preconnect/dns-prefetch -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Optional: preload your app bundle if filename is predictable -->
+    <!-- <link rel="modulepreload" href="/src/main.tsx" /> -->
+
+    <!-- PWA & Theming -->
+    <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Rahil’s Portfolio Terminal" />
+    <meta property="og:description" content="Interactive developer portfolio in a terminal-style interface. Browse projects, stack, and contact." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://terminal.rahil.pro/" />
+    <meta property="og:site_name" content="Rahil — Portfolio Terminal" />
+    <meta property="og:image" content="https://terminal.rahil.pro/og-image.png" />
+    <meta property="og:image:alt" content="Screenshot of Rahil’s terminal-style portfolio interface" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Rahil_Vahora12" />
+    <meta name="twitter:creator" content="@Rahil_Vahora12" />
+    <meta name="twitter:title" content="Rahil’s Portfolio Terminal" />
+    <meta name="twitter:description" content="Full-stack dev, terminal UIs, open-source. Explore projects, experience, and contact." />
+    <meta name="twitter:image" content="https://terminal.rahil.pro/og-image.png" />
+    <meta name="twitter:image:alt" content="Terminal portfolio preview" />
+
+    <!-- Optional: structured keywords (low impact nowadays, harmless) -->
+    <meta name="keywords" content="Rahil, portfolio, terminal UI, developer, full-stack, TypeScript, React, Node.js, open-source" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://terminal.rahil.pro/#website",
+          "url": "https://terminal.rahil.pro/",
+          "name": "Rahil — Portfolio Terminal",
+          "description": "Interactive terminal-themed developer portfolio.",
+          "inLanguage": "en-US",
+          "publisher": { "@id": "https://terminal.rahil.pro/#person" },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://terminal.rahil.pro/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://terminal.rahil.pro/#webpage",
+          "url": "https://terminal.rahil.pro/",
+          "name": "Rahil’s Portfolio Terminal",
+          "isPartOf": { "@id": "https://terminal.rahil.pro/#website" },
+          "datePublished": "2024-01-01",
+          "dateModified": "2025-08-19",
+          "inLanguage": "en-US",
+          "description": "Rahil is a full-stack developer. Explore projects, experience, skills, and contact."
+        },
+        {
+          "@type": "Person",
+          "@id": "https://terminal.rahil.pro/#person",
+          "name": "Rahil",
+          "url": "https://terminal.rahil.pro/",
+          "jobTitle": "Full-Stack Developer",
+          "sameAs": [
+            "https://twitter.com/Rahil_Vahora12"
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://terminal.rahil.pro/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <!-- Styles -->
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #000;
+        font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+      }
+
+      /* Accessibility: focus ring for keyboard users */
+      :focus-visible {
+        outline: 2px dashed #7dd3fc;
+        outline-offset: 2px;
+      }
+
+      /* Disable text selection on mobile for better UX */
+      @media (max-width: 768px) {
+        * {
+          -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          -khtml-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+        input {
+          -webkit-user-select: text;
+          -moz-user-select: text;
+          -ms-user-select: text;
+          user-select: text;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Skip link helps a11y and gives crawlers more structure -->
+    <a href="#main" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">
+      Skip to main content
+    </a>
+
+    <!-- Structured landmarks help crawlers -->
+    <header role="banner" aria-label="Site header">
+      <!-- Optional: put minimal, crawlable text for SPAs -->
+      <h1 style="position:absolute;left:-9999px;">Rahil — Full-Stack Developer Portfolio</h1>
+    </header>
+
+    <main id="main" role="main">
+      <div id="root" aria-live="polite"></div>
+      <!-- No-JS fallback so bots with limited JS still get context -->
+      <noscript>
+        <section>
+          <h2>Rahil’s Portfolio</h2>
+          <p>This site is an interactive terminal portfolio. Enable JavaScript to use commands like <code>help</code>, <code>projects</code>, and <code>contact</code>.</p>
+          <nav aria-label="Quick links">
+            <ul>
+              <li><a href="/projects">Projects</a></li>
+              <li><a href="/experience">Experience</a></li>
+              <li><a href="/skills">Skills</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </nav>
+        </section>
+      </noscript>
+    </main>
+
+    <footer role="contentinfo" aria-label="Site footer">
+      <p style="position:absolute;left:-9999px;">
+        © <span id="year">2025</span> Rahil — Full-Stack Developer.
+      </p>
+    </footer>
+
+    <!-- App script -->
+    <script type="module" src="/src/main.tsx" defer></script>
+    <script>
+      // keep hidden footer year accurate without affecting SSR
+      document.getElementById('year') && (document.getElementById('year').textContent = String(new Date().getFullYear()));
+    </script>
+  </body>
+</html>

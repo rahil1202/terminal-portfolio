@@ -1,0 +1,22 @@
+export const themes = {
+  matrix: { bg: 'bg-black', text: 'text-green-400', prompt: 'text-yellow-400', accent: 'bg-green-900 text-green-300' },
+  solarized: { bg: 'bg-blue-900', text: 'text-yellow-200', prompt: 'text-orange-400', accent: 'bg-orange-900 text-orange-300' },
+  dracula: { bg: 'bg-purple-900', text: 'text-purple-200', prompt: 'text-pink-400', accent: 'bg-pink-900 text-pink-300' },
+  hacker: { bg: 'bg-gray-900', text: 'text-green-300', prompt: 'text-red-400', accent: 'bg-red-900 text-red-300' },
+  cyberpunk: { bg: 'bg-gradient-to-br from-purple-900 via-pink-900 to-indigo-900', text: 'text-cyan-300', prompt: 'text-pink-400', accent: 'bg-pink-900 text-cyan-300' },
+  monokai: { bg: 'bg-gray-800', text: 'text-green-400', prompt: 'text-yellow-300', accent: 'bg-yellow-900 text-yellow-300' },
+  nord: { bg: 'bg-slate-800', text: 'text-blue-300', prompt: 'text-cyan-400', accent: 'bg-cyan-900 text-cyan-300' },
+  'terminal-classic': { bg: 'bg-black', text: 'text-white', prompt: 'text-gray-300', accent: 'bg-gray-900 text-white' },
+  whiteout: { bg: 'bg-white', text: 'text-black', prompt: 'text-gray-600', accent: 'bg-gray-200 text-black' },
+  abyss: { bg: 'bg-gray-950', text: 'text-blue-400', prompt: 'text-purple-400', accent: 'bg-purple-900 text-purple-300' },
+  ocean: { bg: 'bg-blue-950', text: 'text-teal-300', prompt: 'text-blue-400', accent: 'bg-teal-900 text-teal-300' },
+  forest: { bg: 'bg-green-950', text: 'text-green-300', prompt: 'text-lime-400', accent: 'bg-lime-900 text-lime-300' },
+  sunset: { bg: 'bg-gradient-to-br from-orange-900 via-red-900 to-pink-900', text: 'text-orange-200', prompt: 'text-yellow-400', accent: 'bg-red-900 text-orange-300' },
+  neon: { bg: 'bg-black', text: 'text-pink-300', prompt: 'text-cyan-400', accent: 'bg-cyan-900 text-pink-300' },
+  pastel: { bg: 'bg-pink-100', text: 'text-purple-600', prompt: 'text-blue-500', accent: 'bg-purple-200 text-purple-600' },
+  midnight: { bg: 'bg-indigo-950', text: 'text-blue-200', prompt: 'text-violet-400', accent: 'bg-violet-900 text-blue-200' },
+  retro: { bg: 'bg-amber-900', text: 'text-yellow-300', prompt: 'text-orange-500', accent: 'bg-orange-800 text-yellow-300' },
+  arctic: { bg: 'bg-blue-50', text: 'text-blue-900', prompt: 'text-blue-600', accent: 'bg-teal-100 text-blue-800' },
+  lava: { bg: 'bg-gradient-to-br from-red-900 via-orange-900 to-yellow-900', text: 'text-red-200', prompt: 'text-orange-400', accent: 'bg-orange-900 text-red-300' },
+  twilight: { bg: 'bg-purple-950', text: 'text-pink-200', prompt: 'text-rose-400', accent: 'bg-rose-900 text-pink-300' }
+};

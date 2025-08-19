@@ -1,0 +1,25 @@
+
+export const fortunes = [
+  '"Your code will compile on the first try today." (Probability: 0.01%)',
+  '"A rubber duck will solve your debugging problem today."',
+  '"You will find the perfect Stack Overflow answer on the first search."',
+  '"Your pull request will be approved without any comments."',
+  '"The bug you\'re looking for is on line 42."',
+  '"Today you will understand pointers completely."',
+  '"Your code will be merged without conflicts."',
+  '"A senior developer will compliment your code architecture."',
+  '"You will remember to save your work before the crash."',
+  '"The client will love your first design iteration."',
+  '"Your regex will work perfectly on the first attempt."',
+  '"You will solve that algorithm problem that\'s been bugging you."',
+  '"Your deployment will go smoothly in production."',
+  '"You will find the memory leak before it becomes a problem."',
+  '"The documentation will actually be helpful today."',
+  '"Your database query will be optimized from the start."',
+  '"You will write zero-bug code today."',
+  '"The third-party API will work exactly as documented."',
+  '"You will understand the legacy code you\'re inheriting."',
+  '"Your estimation will be accurate for once."',
+  '"The coffee machine will work when you need it most."',
+  '"You will have a breakthrough moment during your lunch break."'
+];
