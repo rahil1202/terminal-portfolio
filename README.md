@@ -3,7 +3,10 @@
 An **interactive terminal-style developer portfolio** built with **Next.js**, **TypeScript**, and **TailwindCSS**.  
 It simulates a real Linux shell where users can run commands to explore my projects, skills, and fun extras — all from the comfort of a terminal UI.  
 
-![Demo Screenshot](./public/screenshots/demo-1.png)  
+![Demo Screenshot]
+<img width="1439" height="782" alt="image" src="https://github.com/user-attachments/assets/1961d1f2-caaa-444f-863a-b462efc319af" />
+<img width="1439" height="783" alt="image" src="https://github.com/user-attachments/assets/1222c223-30c3-4e73-abfc-ae10e68c9192" />
+
 *Landing screen with terminal UI*
 
 ---
@@ -25,16 +28,23 @@ It simulates a real Linux shell where users can run commands to explore my proje
 > Add screenshots in `./public/screenshots/` folder and update paths below
 
 ### 🔐 Home / Welcome Screen
-![Welcome](./public/screenshots/demo-2.png)
+![Loading](./public/screenshots/01.png)
+![Welcome](./public/screenshots/02.png)
 
 ### 📂 Portfolio Commands
-![Portfolio](./public/screenshots/demo-3.png)
+![Portfolio](./public/screenshots/03.png)
 
-### 🎮 Fun Zone & Games
-![Games](./public/screenshots/demo-4.png)
+### 🚩 Fun Zone
+![Fun-Zone](./public/screenshots/04.png)
+
+### 🎮 Games
+![Games](./public/screenshots/05.png)
+
+### ✒️ Themes
+![Games](./public/screenshots/06.png)
 
 ### 🎨 ASCII Art Generator
-![ASCII Art](./public/screenshots/demo-5.png)
+![ASCII Art](./public/screenshots/07.png)
 
 ---
 
@@ -100,4 +110,5 @@ This project is open-source under the [GPL-3.0-only](LICENSE).
 * Portfolio: [https://terminal.rahil.pro](https://terminal.rahil.pro)
 
 ```
+
 
