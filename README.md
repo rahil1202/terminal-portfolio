@@ -24,10 +24,10 @@ It simulates a real Linux shell where users can run commands to explore my proje
 
 ## 🖼️ Screenshots
 
-> Add screenshots in `./public/screenshots/` folder and update paths below
 
 ### 🔐 Home / Welcome Screen
 ![Loading](./public/screenshots/01.png)
+</br>
 ![Welcome](./public/screenshots/02.png)
 
 ### 📂 Portfolio Commands
@@ -107,5 +107,6 @@ This project is open-source under the [GPL-3.0-only](LICENSE).
 
 * Twitter: [@Rahil\_Vahora12](https://twitter.com/Rahil_Vahora12)
 * Portfolio: [https://terminal.rahil.pro](https://terminal.rahil.pro)
+
 
 
