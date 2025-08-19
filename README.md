@@ -4,9 +4,9 @@ An **interactive terminal-style developer portfolio** built with **Next.js**, **
 It simulates a real Linux shell where users can run commands to explore my projects, skills, and fun extras — all from the comfort of a terminal UI.  
 
 *Landing screen with terminal UI*
-<img width="1439" height="782" alt="image" src="https://github.com/user-attachments/assets/1961d1f2-caaa-444f-863a-b462efc319af" />
+<img width="1439" height="782" alt="image" src="./public/screenshots/01.png" />
 *Welcome Screen*
-<img width="1439" height="783" alt="image" src="https://github.com/user-attachments/assets/1222c223-30c3-4e73-abfc-ae10e68c9192" />
+<img width="1439" height="783" alt="image" src="./public/screenshots/02.png" />
 
 ---
 
@@ -28,22 +28,26 @@ It simulates a real Linux shell where users can run commands to explore my proje
 ### 🔐 Home / Welcome Screen
 ![Loading](./public/screenshots/01.png)
 </br>
+
 ![Welcome](./public/screenshots/02.png)
 
-### 📂 Portfolio Commands
-![Portfolio](./public/screenshots/03.png)
+### 📂 Available Commands
+![Available](./public/screenshots/03.png)
+
+### 👨‍💻 Portfolio Commands
+![Available](./public/screenshots/04.png)
 
 ### 🚩 Fun Zone
-![Fun-Zone](./public/screenshots/04.png)
+![Fun-Zone](./public/screenshots/05.png)
 
 ### 🎮 Games
-![Games](./public/screenshots/05.png)
-
-### ✒️ Themes
 ![Games](./public/screenshots/06.png)
 
+### ✒️ Themes
+![Games](./public/screenshots/07.png)
+
 ### 🎨 ASCII Art Generator
-![ASCII Art](./public/screenshots/07.png)
+![ASCII Art](./public/screenshots/08.png)
 
 ---
 
