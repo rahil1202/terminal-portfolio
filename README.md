@@ -3,7 +3,6 @@
 An **interactive terminal-style developer portfolio** built with **Next.js**, **TypeScript**, and **TailwindCSS**.  
 It simulates a real Linux shell where users can run commands to explore my projects, skills, and fun extras — all from the comfort of a terminal UI.  
 
-![Demo Screenshot]
 *Landing screen with terminal UI*
 <img width="1439" height="782" alt="image" src="https://github.com/user-attachments/assets/1961d1f2-caaa-444f-863a-b462efc319af" />
 *Welcome Screen*
@@ -108,4 +107,5 @@ This project is open-source under the [GPL-3.0-only](LICENSE).
 
 * Twitter: [@Rahil\_Vahora12](https://twitter.com/Rahil_Vahora12)
 * Portfolio: [https://terminal.rahil.pro](https://terminal.rahil.pro)
+
 
