@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 
 interface LoadingScreenProps {
@@ -16,10 +15,8 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
   } | null>(null);
 
   useEffect(() => {
-    // Get user information
     const getUserInfo = async () => {
       try {
-        // Get IP from an external service
         const ipResponse = await fetch('https://api.ipify.org?format=json');
         const ipData = await ipResponse.json();
         
@@ -51,16 +48,8 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
     'Mounting file systems...',
     'Network interfaces: UP',
     'Connecting to network...',
-    // '',
-    // '████████╗███████╗██████╗ ███╗   ███╗██╗███╗   ██╗ █████╗ ██╗     ',
-    // '╚══██╔══╝██╔════╝██╔══██╗████╗ ████║██║████╗  ██║██╔══██╗██║     ',
-    // '   ██║   █████╗  ██████╔╝██╔████╔██║██║██╔██╗ ██║███████║██║     ',
-    // '   ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║██║██║╚██╗██║██╔══██║██║     ',
-    // '   ██║   ███████╗██║  ██║██║ ╚═╝ ██║██║██║ ╚████║██║  ██║███████╗',
-    // '   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝',
-    // '',
     'System boot complete.',
-    'Welcome to Rahil\'s Portfolio Terminal',
+    "Welcome to Rahil's Portfolio Terminal",
     'Portfolio OS v2.1.0 (Linux Compatible)',
     ''
   ];
@@ -133,7 +122,11 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
       </div>
 
       {showEnterPrompt && (
-        <div className="mt-8 text-center">
+        <div
+          className="mt-8 text-center cursor-pointer"
+          onClick={onComplete}          // Desktop tap/click
+          onTouchStart={onComplete}     // Mobile touch
+        >
           <div className="text-xl text-yellow-400 mb-2">
             System Ready
           </div>
@@ -144,7 +137,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
             Password: ••••••••
           </div>
           <div className="text-green-400 animate-pulse">
-            Press ENTER to continue...
+            Press ENTER or TAP to continue...
           </div>
         </div>
       )}
